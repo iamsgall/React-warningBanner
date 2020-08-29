@@ -1,0 +1,8 @@
+import React from 'react';
+
+export default function WarningBanner(props) {
+  if (!props.warning) {
+    return null;
+  }
+  return <div>Warning!</div>;
+}
